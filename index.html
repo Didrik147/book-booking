@@ -1,13 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    Hello world
-    <script src="script.js"></script>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anette's booking</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+
+    </nav>
+    <main>
+        <!-- <div class="rec">
+            <div class="bookicon">
+                <i class="fa-solid fa-book-open"></i>
+            </div>
+            <div class="rectext">
+                <p>Don't know what to read next?</p>
+                <p>Check out Anette's recommendations</p>
+            </div>
+        </div> -->
+
+        <h2>Search for a book!</h2>
+        <input type="text" class="search">
+        
+        <div class="books">
+            <!-- <a href="nevermoor.html" class="book">
+                <img src="./books/nevermoor.jpg" alt="nevermoor">
+            </a> -->
+        </div>
+    </main>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+
+    <script src="./books/firebase_info.js"></script>
+
+    <script src="books.js"></script>
+    <script src="index.js"></script>
+    
+</body>
 </html>

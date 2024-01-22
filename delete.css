@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 20px;
+    margin-top: 40px;
+}
+
+section {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+a {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 10px;
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+}
+
+main {
+    width: 98%;
+    max-width: 1000px;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 100%;
+    word-break: break-word;
+}
+
+table * {
+    font-size: 20px;
+    padding: 10px;
+}
+
+td,
+th {
+    border: 1px solid #000;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+select {
+    margin: 10px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+
+.delete {
+    margin: auto;
+    padding: 2px;
+    font-size: 26px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.delete:hover {
+    background-color: red;
+    color: white;
+}
